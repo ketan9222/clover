@@ -1,5 +1,6 @@
 environment {
     DOCKERHUB_CREDENTIALS = credentials('docker-cred')
+}
 pipeline {
      agent {
         node {
